@@ -17,4 +17,7 @@ elseif game.PlaceId == 3276265788 then
 elseif game.PlaceId == 3232996272 then 
     loadstring(game:HttpGet('https://raw.githubusercontent.com/eluz4/hub-v1.1/refs/heads/main/main/los.lua'))()
 
+elseif game.PlaceId == 13667319624 then 
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/eluz4/hub-v1.1/refs/heads/main/main/kos.lua'))()
+
 end
