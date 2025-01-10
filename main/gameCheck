@@ -1,1 +1,20 @@
+if game:IsLoaded() then
+    game.StarterGui:SetCore('SendNotification', {
+    Title = 'az hub',
+    Text = 'Checking For Game',
+    Duration = 3,
+})
+else
+    game.Loaded:Wait()
+end
 
+if game.PlaceId == 3101667897 then 
+    
+
+elseif game.PlaceId == 3276265788 then
+    
+
+elseif game.PlaceId == 3232996272 then 
+    
+
+end
