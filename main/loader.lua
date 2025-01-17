@@ -25,5 +25,5 @@ else
     game.StarterGui:SetCore('SendNotification', {
             Title = 'az hub',
             Text = 'No Games Found..',
-            Duration = '3',
+            Duration = 3,
 end
