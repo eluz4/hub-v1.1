@@ -1,7 +1,7 @@
 if game:IsLoaded() then
     game.StarterGui:SetCore('SendNotification', {
     Title = 'az hub',
-    Text = 'Checking For Game',
+    Text = 'Checking For Game..',
     Duration = 3,
 })
 else
@@ -20,4 +20,11 @@ elseif game.PlaceId == 3232996272 then
 elseif game.PlaceId == 13667319624 then 
     loadstring(game:HttpGet('https://raw.githubusercontent.com/eluz4/hub-v1.1/refs/heads/main/main/kos.lua'))()
 
+else 
+    wait(2)
+    game.StarterGui:SetCore('SendNotification', {
+            Title = 'az hub'
+            Text = 'No Games Found..'
+            Duration = '3'
+        })
 end
