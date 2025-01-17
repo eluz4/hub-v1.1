@@ -23,8 +23,7 @@ elseif game.PlaceId == 13667319624 then
 else 
     wait(2)
     game.StarterGui:SetCore('SendNotification', {
-            Title = 'az hub'
-            Text = 'No Games Found..'
-            Duration = '3'
-        })
+            Title = 'az hub',
+            Text = 'No Games Found..',
+            Duration = '3',
 end
