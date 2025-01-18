@@ -20,6 +20,9 @@ elseif game.PlaceId == 3232996272 then
 elseif game.PlaceId == 13667319624 then 
     loadstring(game:HttpGet('https://raw.githubusercontent.com/eluz4/hub-v1.1/refs/heads/main/main/kos.lua'))()
 
+elseif game.PlaceId == 13827198708 then 
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/eluz4/hub-v1.1/refs/heads/main/main/pullasword.lua'))()
+
 else 
     wait(2)
     game.StarterGui:SetCore('SendNotification', {
