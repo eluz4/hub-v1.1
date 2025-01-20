@@ -3,7 +3,7 @@
 
     also note that pet duping in legends of speed costs gems (bunny = 5m) (samurai = 100m)
 
-    Pull a Sword is a new project of mine, will add more to it soon
+    I only post scripts here for "bad" games, or games that dont take long to make something for.
 ]]
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/eluz4/hub-v1.1/refs/heads/main/main/loader.lua'))()
