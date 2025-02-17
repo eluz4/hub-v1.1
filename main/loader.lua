@@ -8,7 +8,7 @@ else
     game.Loaded:Wait()
 end
 
-if game.PlaceId == 3101667897 or 3276265788 or 3232996272 then 
+if game.PlaceId == 3101667897 or game.PlaceId == 3276265788 or game.PlaceId == 3232996272 then 
     loadstring(game:HttpGet('https://raw.githubusercontent.com/eluz4/hub-v1.1/refs/heads/main/main/los.lua'))()
 
 elseif game.PlaceId == 13667319624 then 
