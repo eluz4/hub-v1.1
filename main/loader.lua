@@ -1,6 +1,6 @@
 if game:IsLoaded() then
     game.StarterGui:SetCore('SendNotification', {
-    Title = 'az hub',
+    Title = 'eluza hub | v1.1',
     Text = 'Checking For Game..',
     Duration = 3,
 })
@@ -17,10 +17,13 @@ elseif game.PlaceId == 13667319624 then
 elseif game.PlaceId == 13827198708 then 
     loadstring(game:HttpGet('https://raw.githubusercontent.com/eluz4/hub-v1.1/refs/heads/main/main/pullasword.lua'))()
 
+elseif game.PlaceId == 17725704589 or game.PlaceId == 18281472820 then
+    loadstring(game:Httpget('https://raw.githubusercontent.com/eluz4/hub-v1.1/refs/heads/main/main/bb.lua'))()
+
 else 
     wait(2)
     game.StarterGui:SetCore('SendNotification', {
-    Title = 'az hub',
+    Title = 'eluza hub | v1.1',
     Text = 'No Games Found..',
     Duration = 3,
 })
