@@ -18,7 +18,7 @@ elseif game.PlaceId == 13827198708 then
     loadstring(game:HttpGet('https://raw.githubusercontent.com/eluz4/hub-v1.1/refs/heads/main/main/pullasword.lua'))()
 
 elseif game.PlaceId == 17725704589 or game.PlaceId == 18281472820 then
-    loadstring(game:Httpget('https://raw.githubusercontent.com/eluz4/hub-v1.1/refs/heads/main/main/bb.lua'))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/eluz4/hub-v1.1/refs/heads/main/main/bb.lua'))()
 
 else 
     wait(2)
